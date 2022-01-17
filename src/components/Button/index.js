@@ -1,4 +1,5 @@
 import react from 'react';
+import './Button.css';
 
 const Button = props => {
 
@@ -14,10 +15,10 @@ const Button = props => {
 	const isAnchorLink = url && (url.includes('http') || url.startsWith('#') || url.startsWith('mailto') || url.startsWith('/'));
 
 	const renderAsLink = () => 
-		<a href={url} role="button">{children}</a>
+		<a href={url} role="button" className="btn">{children}</a>
 
 	const renderAsButton = () => 
-		<button {...{type, onClick}}>{children}</button>
+		<button {...{type, onClick}} className="btn">{children}</button>
 	
 	return (
 
