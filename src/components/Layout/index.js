@@ -1,21 +1,19 @@
 import React from 'react';
+import Header from '../Header';
+import Footer from '../Footer';
 
 const Layout = ({ children }) => {
 	
 	return (
 
 		<>
-			<header>
-				header
-			</header>
+			<Header />
 
 			<main role="main">
 				{children}
 			</main>
 
-			<footer>
-				footer
-			</footer>
+			<Footer />
 		</>
 
 	);
