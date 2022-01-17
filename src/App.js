@@ -1,5 +1,6 @@
 import react from 'react';
 import Button from './components/Button';
+import Link from './components/Link';
 
 const App = () => {
 	
@@ -7,7 +8,10 @@ const App = () => {
 
 		<>
 			<h1>Hello App</h1>
+			
 			<Button>Login</Button>
+			
+			<Link href="https://www.bbc.co.uk">BBC</Link>
 		</>
 
 	);
