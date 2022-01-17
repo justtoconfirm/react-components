@@ -11,7 +11,7 @@ const App = () => {
 			
 			<Button>Login</Button>
 			
-			<Link href="https://www.bbc.co.uk">BBC</Link>
+			<Link href="https://www.bbc.co.uk" target="_blank">BBC</Link>
 		</>
 
 	);
