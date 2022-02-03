@@ -3,6 +3,7 @@ import Layout from './components/Layout';
 import Button from './components/Button';
 import Link from './components/Link';
 import TextField from './components/TextField';
+import TextArea from './components/TextArea';
 
 const App = () => {
 	
@@ -18,6 +19,7 @@ const App = () => {
 
 				<TextField name="dog" label="Dog" />
 				<TextField name="cat" label="Cat" />
+				<TextArea name="rabbit" rows="10" label="Rabbit" />
 			
 				{/* <Link href="https://www.bbc.co.uk" target="_blank">BBC</Link> */}
 			</Layout>
