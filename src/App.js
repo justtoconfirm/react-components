@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from './components/Layout';
 import Button from './components/Button';
 import Link from './components/Link';
-import Label from './components/Label';
+import TextField from './components/TextField';
 
 const App = () => {
 	
@@ -10,13 +10,16 @@ const App = () => {
 
 		<>
 			<Layout>
-				<h1>Hello App</h1>
-			
-				<Button>Login</Button>
+				{/*
+					<h1>Hello App</h1>
+				
+					<Button>Login</Button>
+				*/}
 
-				<Label name="test">Label</Label>
+				<TextField name="dog" label="Dog" />
+				<TextField name="cat" label="Cat" />
 			
-				<Link href="https://www.bbc.co.uk" target="_blank">BBC</Link>
+				{/* <Link href="https://www.bbc.co.uk" target="_blank">BBC</Link> */}
 			</Layout>
 		</>
 
