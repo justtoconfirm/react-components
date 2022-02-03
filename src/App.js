@@ -4,9 +4,16 @@ import Button from './components/Button';
 import Link from './components/Link';
 import TextField from './components/TextField';
 import TextArea from './components/TextArea';
+import Dropdown from './components/Dropdown';
 import List from './components/List';
 
 const App = () => {
+
+	const testOptions = [
+		'testone',
+		'testtwo',
+		'testthree',
+	];
 
 	const testList = [
 		'testone',
@@ -27,6 +34,7 @@ const App = () => {
 				<TextField name="dog" label="Dog" />
 				<TextField name="cat" label="Cat" />
 				<TextArea name="rabbit" rows="10" label="Rabbit" />
+				<Dropdown options={testOptions} />
 
 				<List list={testList} type="ol" />
 			
